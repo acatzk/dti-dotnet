@@ -1,0 +1,28 @@
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily Time Record.vbproj.GenerateResource.Cache
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\bin\Debug\Daily Time Record.exe.config
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\bin\Debug\Daily Time Record.exe.manifest
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\bin\Debug\Daily Time Record.application
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\bin\Debug\Daily Time Record.exe
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\bin\Debug\Daily Time Record.pdb
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\bin\Debug\Daily Time Record.xml
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily_Time_Record.Admin_Access.resources
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily_Time_Record.Edit.resources
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily_Time_Record.Settings.resources
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily_Time_Record.Daily_Attendance_Interface.resources
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily_Time_Record.Logout_PassCode.resources
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily_Time_Record.AttedanceTab.resources
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily_Time_Record.SearchTab.resources
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily_Time_Record.HomeTab.resources
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily_Time_Record.Loading_Bar.resources
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily_Time_Record.Login.resources
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily_Time_Record.MainForm.resources
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily_Time_Record.Resources.resources
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily_Time_Record.RegistrationTab.resources
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily_Time_Record.Search_DTR.resources
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily_Time_Record.Search_Employee.resources
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily Time Record.exe.manifest
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily Time Record.application
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily Time Record.exe
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily Time Record.xml
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily Time Record.pdb
+C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\obj\Debug\Daily Time Record.vbprojResolveAssemblyReference.cache

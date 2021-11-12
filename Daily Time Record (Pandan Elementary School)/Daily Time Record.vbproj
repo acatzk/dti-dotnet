@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5567AE2A-C9F1-42D5-8448-1718B21F8042}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Daily_Time_Record.My.MyApplication</StartupObject>
+    <RootNamespace>Daily_Time_Record</RootNamespace>
+    <AssemblyName>Daily Time Record</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Jheferzon\Desktop\DTR\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Daily Time Record.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Daily Time Record.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>7A3FD246925F7F1C3304F51D1AA702B1248F95FC</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Daily Time Record %28Pandan Elementary School%29_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8_Property_Time.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\..\..\Bunifu Crack\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classes\Attendance.vb" />
+    <Compile Include="forms\Settings\Admin_Access.Designer.vb">
+      <DependentUpon>Admin_Access.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Settings\Admin_Access.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Settings\Edit.Designer.vb">
+      <DependentUpon>Edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Settings\Edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Settings\Settings.Designer.vb">
+      <DependentUpon>Settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Settings\Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\User Privilege\Daily Attendance Interface.Designer.vb">
+      <DependentUpon>Daily Attendance Interface.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\User Privilege\Daily Attendance Interface.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\User Privilege\Logout_PassCode.Designer.vb">
+      <DependentUpon>Logout_PassCode.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\User Privilege\Logout_PassCode.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modules\functions.vb" />
+    <Compile Include="modules\properties.vb" />
+    <Compile Include="user control\AttedanceTab.Designer.vb">
+      <DependentUpon>AttedanceTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="user control\AttedanceTab.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="user control\Search\SearchTab.Designer.vb">
+      <DependentUpon>SearchTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="user control\Search\SearchTab.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="user control\HomeTab.Designer.vb">
+      <DependentUpon>HomeTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="user control\HomeTab.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="forms\Login\Loading_Bar.Designer.vb">
+      <DependentUpon>Loading_Bar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Login\Loading_Bar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Login\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Login\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\Admin Privilege\MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="forms\Admin Privilege\MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="user control\RegistrationTab.Designer.vb">
+      <DependentUpon>RegistrationTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="user control\RegistrationTab.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="user control\Search\Search_DTR.Designer.vb">
+      <DependentUpon>Search_DTR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="user control\Search\Search_DTR.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="user control\Search\Search_Employee.Designer.vb">
+      <DependentUpon>Search_Employee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="user control\Search\Search_Employee.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="forms\Settings\Admin_Access.resx">
+      <DependentUpon>Admin_Access.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Settings\Edit.resx">
+      <DependentUpon>Edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Settings\Settings.resx">
+      <DependentUpon>Settings.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\User Privilege\Daily Attendance Interface.resx">
+      <DependentUpon>Daily Attendance Interface.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\User Privilege\Logout_PassCode.resx">
+      <DependentUpon>Logout_PassCode.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user control\AttedanceTab.resx">
+      <DependentUpon>AttedanceTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user control\Search\SearchTab.resx">
+      <DependentUpon>SearchTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user control\HomeTab.resx">
+      <DependentUpon>HomeTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Login\Loading_Bar.resx">
+      <DependentUpon>Loading_Bar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Login\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\Admin Privilege\MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user control\RegistrationTab.resx">
+      <DependentUpon>RegistrationTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user control\Search\Search_DTR.resx">
+      <DependentUpon>Search_DTR.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user control\Search\Search_Employee.resx">
+      <DependentUpon>Search_Employee.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Daily Time Record_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 4.0 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Apple_2.ico" />
+    <Content Include="icons8_Property_Time.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

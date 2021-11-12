@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 11.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="11.0">
+ <Targets>
+  <Target Name="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\bin\Debug\Daily Time Record (Pandan Elementary School).exe">
+   <Modules>
+    <Module Name="daily time record (pandan elementary school).exe">
+     <Namespaces>
+      <Namespace Name="Daily_Time_Record__Pandan_Elementary_School_">
+       <Types>
+        <Type Name="Admin_Access" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnLog_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\Settings" File="Admin_Access.vb" Line="25">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Admin_Access.btnLog_Click(Object, EventArgs)' could contain the following variables 'Me.txtPassword.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Attendance" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#getAttendance(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\classes" File="Attendance.vb" Line="13">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Attendance.getAttendance(String, String)' could contain the following variables 'properties.sql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Daily_Attendance_Interface" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnLogin_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="36">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.btnLogin_Click(Object, EventArgs)' could contain the following variables 'New String(5)(1)', 'New String(5)(3)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DailyAttendanceRecords()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="484">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords()' could contain the following variables 'properties.sql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="495">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords()' could contain the following variables 'properties.sql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="506">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords()' could contain the following variables 'properties.sql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="521">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords()' could contain the following variables 'properties.sql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="530">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords()' could contain the following variables 'properties.sql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DailyAttendanceRecords2()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="161">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'Conversions.ToString(DateAndTime.TimeOfDay)', 'New String(7)(3)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="311">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'Conversions.ToString(DateAndTime.TimeOfDay)', 'New String(7)(3)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="338">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'Conversions.ToString(DateAndTime.TimeOfDay)', 'New String(7)(3)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="105">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'New String(5)(1)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="179">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'New String(5)(1)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="231">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'New String(5)(1)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="269">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'New String(5)(1)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="354">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'New String(5)(1)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="393">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'New String(5)(1)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="129">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'New String(7)(1)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)', 'Conversions.ToString(DateAndTime.TimeOfDay)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="281">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'New String(7)(1)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)', 'Conversions.ToString(DateAndTime.TimeOfDay)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="143">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'New String(9)(1)', 'New String(9)(3)', 'Conversions.ToString(DateAndTime.TimeOfDay)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="215">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'New String(9)(1)', 'New String(9)(3)', 'Conversions.ToString(DateAndTime.TimeOfDay)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="295">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'New String(9)(1)', 'New String(9)(3)', 'Conversions.ToString(DateAndTime.TimeOfDay)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="323">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'New String(9)(1)', 'New String(9)(3)', 'Conversions.ToString(DateAndTime.TimeOfDay)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="445">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'New String(9)(1)', 'New String(9)(3)', 'Conversions.ToString(DateAndTime.TimeOfDay)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="200">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'totalAM', 'New String(7)(3)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="416">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'totalHours', 'New String(7)(3)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="425">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'totalHours', 'New String(7)(3)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="376">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'totalPM', 'New String(7)(3)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="252">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.DailyAttendanceRecords2()' could contain the following variables 'un', 'New String(7)(3)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EmployeeDailyData()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="581">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.EmployeeDailyData()' could contain the following variables 'New String(7)(1)', 'Me.month', 'New String(7)(5)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SummaryAttendance()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="649">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.SummaryAttendance()' could contain the following variables 'Me.lblDate.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UnderTime()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="679">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.UnderTime()' could contain the following variables 'New String(5)(1)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="704">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.UnderTime()' could contain the following variables 'noUndertime', 'New String(7)(3)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Daily Attendance Interface.vb" Line="712">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Daily_Attendance_Interface.UnderTime()' could contain the following variables 'undertime', 'New String(7)(3)', 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="functions" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#isDataShow(System.String,System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\modules" File="functions.vb" Line="99">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'functions.isDataShow(String, String, String)' could contain the following variables 'properties.sql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#isINSERT(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\modules" File="functions.vb" Line="47">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'functions.isINSERT(String, String)' could contain the following variables 'properties.sql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#isSELECT(System.String,System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\modules" File="functions.vb" Line="22">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'functions.isSELECT(String, String, String)' could contain the following variables 'properties.sql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#isUPDATE(System.String,System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\modules" File="functions.vb" Line="72">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'functions.isUPDATE(String, String, String)' could contain the following variables 'properties.sql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\modules" File="functions.vb" Line="74">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'functions.isUPDATE(String, String, String)' could contain the following variables 'properties.sql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Login" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnLogin_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\Login" File="Login.vb" Line="35">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Login.btnLogin_Click(Object, EventArgs)' could contain the following variables 'properties.sql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Logout_PassCode" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnLog_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\User Privilege" File="Logout_PassCode.vb" Line="26">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Logout_PassCode.btnLog_Click(Object, EventArgs)' could contain the following variables 'Me.txtPassword.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Search_DTR" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnSearch_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\user control\Search" File="Search_DTR.vb" Line="30">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Search_DTR.btnSearch_Click(Object, EventArgs)' could contain the following variables 'Me.txtIDnumber.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\user control\Search" File="Search_DTR.vb" Line="85">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Search_DTR.btnSearch_Click(Object, EventArgs)' could contain the following variables 'New String(7)(1)', 'Me.month', 'New String(7)(5)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DataYearRecords()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\user control\Search" File="Search_DTR.vb" Line="137">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Search_DTR.DataYearRecords()' could contain the following variables 'Strings.FormatDateTime(DateAndTime.Now, DateFormat.ShortDate)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Search_Employee" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#txtSearch_OnTextChange(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\user control\Search" File="Search_Employee.vb" Line="114">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Search_Employee.txtSearch_OnTextChange(Object, EventArgs)' could contain the following variables 'New String(7)(1)', 'New String(7)(3)', 'New String(7)(5)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UpdateImage()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\user control\Search" File="Search_Employee.vb" Line="64">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Search_Employee.UpdateImage()' could contain the following variables 'Me.lblID_number.Text'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Settings" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#dataGridLSummaryLog_CellClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\Settings" File="Settings.vb" Line="73">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Settings.dataGridLSummaryLog_CellClick(Object, DataGridViewCellEventArgs)' could contain the following variables '"SELECT Photo FROM Employee_tbl WHERE ID_Number = '" &amp; Me.dataGridEmployee.Rows(e.RowIndex).Cells(0).Value &amp; "'"'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DeleteRecords()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\Settings" File="Settings.vb" Line="118">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Settings.DeleteRecords()' could contain the following variables '"DELETE FROM Employee_tbl WHERE ID_Number = '" &amp; Me.dataGridEmployee.CurrentRow.Cells(0).Value &amp; "'"'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EditRecords()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2018-05-24 12:54:04Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\Jheferzon\Desktop\Visual Studio Database\Daily Time Record\Daily Time Record (Pandan Elementary School)\forms\Settings" File="Settings.vb" Line="179">The query string passed to 'SqlCommand.New(String, SqlConnection)' in 'Settings.EditRecords()' could contain the following variables '"SELECT Photo FROM Employee_tbl WHERE ID_Number = '" &amp; Me.dataGridEmployee.CurrentRow.Cells(0).Value &amp; "'"'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100">
+   <Name>Review SQL queries for security vulnerabilities</Name>
+   <Description>A SQL command string built from user input is vulnerable to SQL injection attacks. Microsoft SQL Server and other database servers support stored procedures and parameterized SQL queries, which reduce the risk of injection attacks.</Description>
+   <Resolution Name="WithNonLiterals">The query string passed to {0} in {1} could contain the following variables {2}. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182310(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>
